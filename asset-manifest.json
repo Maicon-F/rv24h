@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/rv24h/static/css/main.78aeecb7.css",
-    "main.js": "/rv24h/static/js/main.f5c1f747.js",
-    "static/js/453.5b875bfb.chunk.js": "/rv24h/static/js/453.5b875bfb.chunk.js",
-    "index.html": "/rv24h/index.html",
-    "main.78aeecb7.css.map": "/rv24h/static/css/main.78aeecb7.css.map",
-    "main.f5c1f747.js.map": "/rv24h/static/js/main.f5c1f747.js.map",
-    "453.5b875bfb.chunk.js.map": "/rv24h/static/js/453.5b875bfb.chunk.js.map"
+    "main.css": "/resgate24h/static/css/main.78aeecb7.css",
+    "main.js": "/resgate24h/static/js/main.d29da551.js",
+    "static/js/453.5b875bfb.chunk.js": "/resgate24h/static/js/453.5b875bfb.chunk.js",
+    "index.html": "/resgate24h/index.html",
+    "main.78aeecb7.css.map": "/resgate24h/static/css/main.78aeecb7.css.map",
+    "main.d29da551.js.map": "/resgate24h/static/js/main.d29da551.js.map",
+    "453.5b875bfb.chunk.js.map": "/resgate24h/static/js/453.5b875bfb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.78aeecb7.css",
-    "static/js/main.f5c1f747.js"
+    "static/js/main.d29da551.js"
   ]
 }
