@@ -1,12 +1,11 @@
 import React from 'react';
 // Update the import path to match the actual location and filename of TopBar
-import Header from '../components/header';       // adjust path as needed
 import Banner from '../components/banner';
 import ResgatandoVidas from '../components/resgatando'; // adjust path as needed
 import Services from '../components/services'; // adjust path as needed
 const images = [
-  '/images/image5.png',  
-  '/images/image2.jpg'
+  `${process.env.PUBLIC_URL}/images/image5.png`,
+  `${process.env.PUBLIC_URL}/images/image2.jpg`
 ];
 
 const home: React.FC = () => {

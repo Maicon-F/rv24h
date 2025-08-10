@@ -22,8 +22,8 @@ const Header: React.FC = () => {
                     "nav-link text-white px-3" + (isActive ? " active" : "")
                   }
                   style={{
-                    fontSize: '1rem',
-                    fontWeight: 400,
+                    fontSize: '1.1rem',
+                    fontWeight: 'bold',
                   }}
                 >
                   {item}

@@ -7,7 +7,7 @@ const Banner: React.FC = () => {
       style={{
         width: '100%',
         height: '400px',
-        backgroundImage: `url('/images/banner.png')`,
+       backgroundImage: `url(${process.env.PUBLIC_URL}/images/banner.png)`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         fontFamily: "'Poppins', sans-serif",

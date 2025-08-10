@@ -78,15 +78,15 @@ const Sobre = () => {
 
       <div className="sobre-container">
         {/* Título da página */}
-        <h1 className="sobre-h1">A Nossa História e a Sua Nova Jornada</h1>
+        <h1 className="sobre-h1">A Nossa História</h1>
         <p className="sobre-p">
-          Na Resgatando Vidas 24h, a nossa missão vai além do tratamento; é sobre reacender a esperança e oferecer um caminho real para a recuperação. Acreditamos que, com o apoio certo e a comunidade certa, é possível superar qualquer desafio. Estamos aqui para ajudar a escrever um novo capítulo na sua vida, um capítulo de liberdade, saúde e felicidade.
+          Na Resgatando Vidas 24h, a nossa missão vai além do tratamento; é sobre reacender a esperança e oferecer um caminho real para a recuperação. Acreditamos que, com o apoio certo e a comunidade certa, é possível superar qualquer desafio. Estamos aqui para ajudar a escrever um novo capítulo na sua vida, um capítulo de liberdade, saúde e felicidade. 
         </p>
 
         <hr className="my-5" />
 
         {/* Seção sobre Adicção */}
-        <h2 className="sobre-h2">O Que É a Adicção?</h2>
+        <h2 className="sobre-h2">O Que é a Adicção?</h2>
         <p className="sobre-p">
           A adicção é uma doença complexa, e não uma falha de caráter. É uma condição crônica que afeta o cérebro, modificando a forma como a pessoa pensa, sente e age. A dependência química e o alcoolismo têm um impacto profundo não só na vida de quem sofre, mas também na família e na comunidade. O primeiro passo para a recuperação é entender que a adicção requer tratamento profissional e um ambiente de apoio.
         </p>
@@ -110,7 +110,7 @@ const Sobre = () => {
           <div className="col-lg-6 mb-4">
             <h3 className="sobre-h3">2. Equipa Multidisciplinar</h3>
             <p className="sobre-p">
-              A nossa equipa é composta por <strong>profissionais especializados</strong> em várias áreas — médicos, terapeutas, psicólogos e conselheiros. Juntos, criamos um plano de tratamento que não foca apenas na abstinência, mas também nas causas emocionais e psicológicas da adicção.
+              A nossa equipe é composta por <strong>profissionais especializados</strong> em várias áreas — médicos, terapeutas, psicólogos e conselheiros. Juntos, criamos um plano de tratamento que não foca apenas na abstinência, mas também nas causas emocionais e psicológicas da adicção.
             </p>
           </div>
           <div className="col-lg-6 mb-4">
