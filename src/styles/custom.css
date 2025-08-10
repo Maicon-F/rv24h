@@ -1,0 +1,22 @@
+.bg-info {
+  background-color: #f5f6f6; 
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+
+}
+
+/* Default: text visible */
+.intro-text {
+  display: block;
+}
+
+/* Hide text on small devices (max 500px width) */
+@media (max-width: 500px) {
+  .intro-text {
+    display: none;
+  }
+}
+

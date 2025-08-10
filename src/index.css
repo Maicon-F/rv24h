@@ -1,13 +1,70 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #F5F6FA !important;
+    margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+/* Garantir que header e banner não tenham margens extras */
+header, div.position-relative {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Default size para as imagens */
+.responsive-image {
+  width: 150px;
+  height: auto;
+}
+
+/* Large mobile first */
+@media (max-width: 600px) {
+  html, body {
+    font-size: 15px !important;
+  }
+  .responsive-image {
+    width: 120px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  html, body {
+    font-size: 12px !important;
+  }
+  .responsive-image {
+    width: 100px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  html, body {
+    font-size: 10px !important;
+  }
+  .responsive-image {
+    width: 80px !important;
+  }
+}
+
+@media (max-width: 360px) {
+  html, body {
+    font-size: 8px !important;
+  }
+  .responsive-image {
+    width: 60px !important;
+  }
+}
+
+
