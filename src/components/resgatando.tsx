@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Carousel from "./carrossel"; // seu componente existente
 
 interface ResgatandoVidasProps {
@@ -55,7 +56,12 @@ const ResgatandoVidas: React.FC<ResgatandoVidasProps> = ({ images }) => {
           a reconstruir sua vida.
           <br />
           <br />
-          Estamos aqui para te apoiar em cada passo do caminho.
+          Estamos aqui para te apoiar em cada passo do caminho.{" "}
+          <br />
+          <br />
+          <Link to="/missao" style={{ color: "#2c3e50", textDecoration: "underline" }}>
+            <b>Venha conhecer nossa missão.</b>
+          </Link>
         </p>
       </div>
     </div>

@@ -14,10 +14,10 @@ const Header: React.FC = () => {
 
         <nav>
           <ul className="nav mb-0">
-            {['Home', 'Sobre', 'Contato'].map((item) => (
+            {['Home', 'Clinica', 'Saiba mais'].map((item) => (
               <li className="nav-item" key={item}>
                 <NavLink
-                  to={item === 'Home' ? '/' : `/${item.toLowerCase()}`}
+                  to={item === 'Saiba mais' ? '/saibamais' : `/${item.toLowerCase()}`}
                   className={({ isActive }) =>
                     "nav-link text-white px-3" + (isActive ? " active" : "")
                   }

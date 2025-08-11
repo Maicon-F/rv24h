@@ -3,7 +3,7 @@ import React from 'react';
 // Certifique-se de que o Bootstrap CSS está importado em seu projeto.
 // Exemplo: import 'bootstrap/dist/css/bootstrap.min.css';
 
-const sobre = () => {
+const missao = () => {
   return (
     <>
       <style>
@@ -138,4 +138,4 @@ const sobre = () => {
   );
 };
 
-export default sobre;
+export default missao;

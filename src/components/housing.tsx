@@ -1,18 +1,17 @@
 import React from "react";
 import {
-  FaPhoneAlt,
-  FaAmbulance,
-  FaHandshake,
-  FaUserShield,
+  FaClock,
+  FaMale,
+  FaFemale,
 } from "react-icons/fa";
 
-// O CSS é inserido aqui para remover o efeito de link padrão
+// Objeto de estilo para remover o efeito padrão de link
 const linkStyle = {
   textDecoration: 'none',
-  color: 'inherit', // Herda a cor do elemento pai
+  color: 'inherit',
 };
 
-const Services: React.FC = () => {
+const Housing: React.FC = () => {
   const whatsappLink = "https://wa.me/5522997155439";
 
   return (
@@ -28,55 +27,45 @@ const Services: React.FC = () => {
         overflowX: "auto",
       }}
     >
+
       <div style={{ flex: "1 0 160px", textAlign: "center", minWidth: "160px" }}>
         <a href={whatsappLink} target="_blank" rel="noopener noreferrer" style={linkStyle}>
-          <FaPhoneAlt size={40} color="#2c3e50" />
+          <FaFemale size={40} color="#2c3e50" />
           <h3 style={{ margin: "10px 0 6px", fontSize: "1.1rem", color: "#34495e" }}>
-            Plantão de atendimento
+            Clínica Feminina
           </h3>
           <p style={{ fontSize: "0.9rem", color: "#7f8c8d", margin: 0 }}>
-            Via ligações e whatsapp.
+            Clínica exclusiva para mulheres.
           </p>
         </a>
       </div>
 
       <div style={{ flex: "1 0 160px", textAlign: "center", minWidth: "160px" }}>
         <a href={whatsappLink} target="_blank" rel="noopener noreferrer" style={linkStyle}>
-          <FaUserShield size={40} color="#2c3e50" />
+          <FaMale size={40} color="#2c3e50" />
           <h3 style={{ margin: "10px 0 6px", fontSize: "1.1rem", color: "#34495e" }}>
-            Internação Involuntária
+            Clínica Masculina
           </h3>
           <p style={{ fontSize: "0.9rem", color: "#7f8c8d", margin: 0 }}>
-            A pedido de familiares ou responsáveis legais
+            Acomodações 100% seguras para sua tranquilidade.
           </p>
         </a>
       </div>
-      
+
       <div style={{ flex: "1 0 160px", textAlign: "center", minWidth: "160px" }}>
         <a href={whatsappLink} target="_blank" rel="noopener noreferrer" style={linkStyle}>
-          <FaHandshake size={40} color="#2c3e50" />
+          <FaClock size={40} color="#2c3e50" />
           <h3 style={{ margin: "10px 0 6px", fontSize: "1.1rem", color: "#34495e" }}>
-            Internação Voluntária
+            Atendimento 24h
           </h3>
           <p style={{ fontSize: "0.9rem", color: "#7f8c8d", margin: 0 }}>
-            Com consentimento do paciente.
+            Entre em contato a qualquer hora do dia ou da noite.
           </p>
         </a>
       </div>
-      
-      <div style={{ flex: "1 0 160px", textAlign: "center", minWidth: "160px" }}>
-        <a href={whatsappLink} target="_blank" rel="noopener noreferrer" style={linkStyle}>
-          <FaAmbulance size={40} color="#2c3e50" />
-          <h3 style={{ margin: "10px 0 6px", fontSize: "1.1rem", color: "#34495e" }}>
-            Resgate Imediato
-          </h3>
-          <p style={{ fontSize: "0.9rem", color: "#7f8c8d", margin: 0 }}>
-            Resgate especializado para situações de emergência.
-          </p>
-        </a>
-      </div>
+
     </div>
   );
 };
 
-export default Services;
+export default Housing;
