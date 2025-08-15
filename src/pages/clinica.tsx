@@ -7,6 +7,7 @@ const accomodation = [
   `${process.env.PUBLIC_URL}/images/accomodation1.png`,
   `${process.env.PUBLIC_URL}/images/accomodation2.jpg`,
   `${process.env.PUBLIC_URL}/images/housing.jpg`,
+  `${process.env.PUBLIC_URL}/images/quarto3.jpg`,
 ];
 
 const externalArea = [
@@ -15,6 +16,12 @@ const externalArea = [
   `${process.env.PUBLIC_URL}/images/pool2.jpg`,
   `${process.env.PUBLIC_URL}/images/pool3.jpg`,
   `${process.env.PUBLIC_URL}/images/dinnerRoom.jpg`,
+    `${process.env.PUBLIC_URL}/images/auditorio.jpg`,
+  `${process.env.PUBLIC_URL}/images/lagoa2.jpg`,
+  `${process.env.PUBLIC_URL}/images/logoa.jpg`,
+    `${process.env.PUBLIC_URL}/images/lazer2.jpg`,
+
+
 ];
 
 const Home: React.FC = () => {
