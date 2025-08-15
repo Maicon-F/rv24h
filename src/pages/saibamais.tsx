@@ -136,7 +136,7 @@ const Resgate = () => {
             <p className="text-secondary">A forma mais rápida de falar conosco é por telefone ou WhatsApp.</p>
             <a href={`tel: ${PHONE_NUMBER}`} className="resgate-icon-link">
               <FaPhoneAlt size={24} className="resgate-icon" />
-              <span>${PHONE_NUMBER}</span>
+              <span> {PHONE_NUMBER}</span>
             </a>
             <a href={`https://wa.me/${PHONE_WHATSAPP}`} target="_blank" rel="noopener noreferrer" className="resgate-icon-link">
               <FaWhatsapp size={24} className="resgate-icon" />
