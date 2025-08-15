@@ -7,13 +7,14 @@ import Footer from './components/footer';
 import SaibaMais from './pages/saibamais';
 import Clinica from './pages/clinica';
 import WhatsAppIcon from './components/whatsappIcon'; // Adjust the import path as necessary
+import { PHONE_WHATSAPP } from './constants/contants';
 // Update the import path if necessary, e.g.:
 
 function App() {
   return (
     <Router>
       <Header />
-      <WhatsAppIcon phoneNumber="5522997155439" message="Olá! Quero saber mais sobre o processo de resgate." />
+      <WhatsAppIcon phoneNumber={`${PHONE_WHATSAPP}`} message="Olá! Quero saber mais sobre o processo de resgate." />
       <Routes>
         <Route path="/missao" element={<Missao />} />
         <Route path="/saibamais" element={<SaibaMais />} />

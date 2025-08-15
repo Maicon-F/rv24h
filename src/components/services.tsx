@@ -1,4 +1,5 @@
 import React from "react";
+import { PHONE_WHATSAPP } from "../constants/contants";
 import {
   FaPhoneAlt,
   FaAmbulance,
@@ -13,7 +14,7 @@ const linkStyle = {
 };
 
 const Services: React.FC = () => {
-  const whatsappLink = "https://wa.me/5522997155439";
+  const whatsappLink =`https://wa.me/${PHONE_WHATSAPP}`;
 
   return (
     <div

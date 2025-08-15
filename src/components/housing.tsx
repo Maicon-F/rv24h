@@ -5,6 +5,8 @@ import {
   FaFemale,
 } from "react-icons/fa";
 
+import { PHONE_WHATSAPP } from "../constants/contants";
+
 // Objeto de estilo para remover o efeito padrão de link
 const linkStyle = {
   textDecoration: 'none',
@@ -12,7 +14,7 @@ const linkStyle = {
 };
 
 const Housing: React.FC = () => {
-  const whatsappLink = "https://wa.me/5522997155439";
+  const whatsappLink =`https://wa.me/${PHONE_WHATSAPP}`;
 
   return (
     <div

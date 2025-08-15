@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaFacebook, FaWhatsapp, FaEnvelope } from 'react-icons/fa';
+import { PHONE_NUMBER, PHONE_WHATSAPP } from '../constants/contants';
 
 const Footer = () => {
   return (
@@ -57,9 +58,9 @@ const Footer = () => {
       <footer className="simple-footer">
         <ul className="contact-list">
           <li className="contact-item">
-            <a href="https://wa.me/5522997155439" target="_blank" rel="noopener noreferrer">
+            <a href={`https://wa.me/${PHONE_WHATSAPP}`} target="_blank" rel="noopener noreferrer">
               <FaWhatsapp size={20} className="icon" />
-              +55 (22) 99715-5439
+              {PHONE_NUMBER}
             </a>
           </li>
           <li className="contact-item">

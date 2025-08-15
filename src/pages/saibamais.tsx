@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaPhoneAlt, FaWhatsapp, FaEnvelope } from "react-icons/fa";
 import Carrossel from '../components/carrossel';
+import { PHONE_NUMBER, PHONE_WHATSAPP } from '../constants/contants';
 const imagens = [
   `${process.env.PUBLIC_URL}/images/resgate1.jpg`,
 ];
@@ -120,9 +121,8 @@ const Resgate = () => {
 
         <hr className="my-5" />
         
-        <p className="resgate-text">
-          O resgate é a fase mais crucial para iniciar a jornada de recuperação. Nós da <b>Resgatando Vidas</b> compreendemos a urgência e a sensibilidade desse momento. 
-        </p>
+        <p className="resgate-text">O resgate é a fase mais crucial para iniciar a jornada de recuperação em uma internação involuntária. Nós, da <b>Resgatando Vidas</b>, compreendemos a urgência e a sensibilidade desse momento. O procedimento é realizado por uma equipe composta por <b>motorista</b>, <b>socorristas</b> e <b>técnico de enfermagem</b>, com atuação totalmente profissional e utilização de técnicas específicas para a contenção mecânica e o transporte do paciente até a unidade de tratamento adequada.
+         </p>
         <hr className="my-5" />
 
         <h2 className="resgate-h2">Contato para Resgate</h2>
@@ -134,11 +134,11 @@ const Resgate = () => {
           <div className="col-md-6 mb-4">
             <h2 className="resgate-h2">Contato Rápido</h2>
             <p className="text-secondary">A forma mais rápida de falar conosco é por telefone ou WhatsApp.</p>
-            <a href="tel:+5522997155439" className="resgate-icon-link">
+            <a href={`tel: ${PHONE_NUMBER}`} className="resgate-icon-link">
               <FaPhoneAlt size={24} className="resgate-icon" />
               <span>+55 (22) 99715-5439</span>
             </a>
-            <a href="https://wa.me/5522997155439" target="_blank" rel="noopener noreferrer" className="resgate-icon-link">
+            <a href={`https://wa.me/${PHONE_WHATSAPP}`} target="_blank" rel="noopener noreferrer" className="resgate-icon-link">
               <FaWhatsapp size={24} className="resgate-icon" />
               <span>WhatsApp</span>
             </a>
